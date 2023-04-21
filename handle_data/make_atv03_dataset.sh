@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# create data dir if it doens't exist
+if [ ! -d "data/" ]; then 
+    mkdir data;
+fi
+
 # fill in /data directory
 mkdir \
     data/atv03/competitions \
