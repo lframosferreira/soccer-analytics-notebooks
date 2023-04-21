@@ -5,7 +5,10 @@ if [ ! -d "data/" ]; then
     mkdir data;
 fi
 
-# fill in /data directory
+if [ ! -d "data/atv03" ]; then
+    mkdir data/atv03;
+fi
+
 mkdir \
     data/atv03/competitions \
     data/atv03/events \
