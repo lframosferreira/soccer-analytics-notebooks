@@ -19,7 +19,8 @@ mkdir \
     data/atv03/referees \
     data/atv03/coaches \
     data/atv03/tagId2name \
-    data/atv03/eventId2name
+    data/atv03/eventId2name \
+    data/atv03/minues_played
 
 # downloads the datasets stored in https://figshare.com/collections/Soccer_match_event_dataset/4415000/5
 # already unzip content and rename the files to be more readable
